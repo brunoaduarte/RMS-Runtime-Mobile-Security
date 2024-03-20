@@ -381,6 +381,10 @@
   $(document).ready(function () {
     $(".nav li").removeClass("active");
     $('#device').addClass('active');
+
+    $("#mobile_OS").val("Android");
+    $("#mobile_OS").trigger("change");
+
   });
   </script>
   <!-- Set current Page as active in the NavBar -->
